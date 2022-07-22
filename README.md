@@ -19,3 +19,4 @@ I've written pieces for various other company blogs as well. These are typically
 - [LogRocket - "Successful refactoring with React Testing Library"](https://blog.logrocket.com/successful-refactoring-react-testing-library/)
 - [TestProject - "Test-Driven Development for Building User Interfaces"](https://blog.testproject.io/2021/03/23/test-driven-development-for-building-user-interfaces/)
 - [AutoIdle - "How to Create Review Apps on Heroku"](https://autoidle.com/blog/how-to-create-review-apps-on-heroku)
+- [CodeSee - "Using CodeSee Maps for Refactoring"](https://learn.codesee.io/using-codesee-maps-for-refactoring/)
