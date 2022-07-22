@@ -6,7 +6,6 @@ There are, however, several different approaches to module mocking in Jest, whic
 
 In this article we'll walk through various scenarios using ES6 modules with named exports, a default export, or a mix of both.
 
-
 ---
 
 ## ES6 Module Exports
@@ -14,7 +13,6 @@ In this article we'll walk through various scenarios using ES6 modules with name
 ES6 modules provide two different ways to export methods and variables from a file: **named exports** and **default exports**. Any given file could have one or more named exports, one default export, or both named exports and a default export.
 
 The way you mock your module in Jest will depend on the way in which data is exported from the module.
-
 
 ---
 
@@ -29,7 +27,6 @@ When testing a module in Jest, there are several possible module mocking scenari
 5. Partially mocking some methods in the module but not all the methods
 
 Let's explore each of these possibilities below.
-
 
 ---
 
@@ -274,7 +271,6 @@ describe('default export - module factory with mock implementation mocked file',
 ---
 
 For a module that only has a single export that is the default export, we won't have any way to only partially mock the module, so that case is not applicable here.
-
 
 ---
 
