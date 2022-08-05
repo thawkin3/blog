@@ -6,6 +6,8 @@ As software engineers, we love to automate. Yet code review is often a fairly ma
 
 In this article, we’ll consider five tools and integrations that can significantly improve your code review experience in GitHub.
 
+---
+
 ## Travis CI or CircleCI
 
 First, let’s talk about continuous integration (CI). Setting up CI for your repos is step one in automating your code review process. With a CI pipeline in place, you can run anything you want! At the very least, you should have your CI pipeline include jobs for formatting, linting, and unit tests. You might also consider creating additional jobs for building artifacts, deploying review apps, or running end-to-end tests.
@@ -17,6 +19,8 @@ Continuous integration helps you keep your master branch in a good state at all 
 [Travis CI](https://www.travis-ci.com/) and [CircleCI](https://circleci.com/) are both excellent options for continuous integration. Both allow you to configure your CI pipeline using YAML files, enabling you to write your infrastructure as code. In the YAML file you can specify things like which Docker image to use, what version of Node to run, and what installation and build steps to follow.
 
 Best of all, Travis CI and CircleCI are free to use for open-source projects.
+
+---
 
 ## Jest and Codecov
 
@@ -34,6 +38,8 @@ And, CodeCov is free to use for open-source projects.
 
 ![Codecov report example](https://cdn-images-1.medium.com/max/3200/0*FAVU1W67gdD7SyBs)*Codecov report example*
 
+---
+
 ## SonarQube and SonarCloud
 
 Third, let’s discuss static analysis checkers. Linters like ESLint are a must for any project. Linters are great for enforcing best practices and agreed-upon coding styles.
@@ -46,6 +52,8 @@ SonarQube can be run as a self-managed service, or you can run it in the cloud a
 
 Sonar offers solutions for both enterprise companies and open-source projects. Like the other tools we’ve discussed so far, SonarQube and SonarCloud are free to use for open-source projects.
 
+---
+
 ## CodeSee Review Maps
 
 Fourth, let’s explore ways to visualize our codebase and the changes we make in our pull requests. Wouldn’t it be nice to know how each changed method or file affects the rest of the functionality in the app?
@@ -57,6 +65,8 @@ Fourth, let’s explore ways to visualize our codebase and the changes we make i
 CodeSee makes it easier for you to walk through the changed files in a logical order rather than just viewing them alphabetically. It even lets you — as the code author — [create interactive tours](https://app.codesee.io/maps/review/github/Codesee-io/oss-port/pr/244?_ga=2.26313149.1847448165.1658437521-1515474781.1650061133) of your code to walk reviewers through your changes.
 
 And — you guessed it — CodeSee Review Maps are free to use for open-source projects.
+
+---
 
 ## GitHub Actions
 
@@ -76,18 +86,16 @@ The automatic-rebase action allows you to rebase your commits simply by commenti
 
 With GitHub Actions, we can automate all the things! And — spoiler alert — GitHub Actions are free to use for public repos.
 
+---
+
 ## Conclusion: 5 Tools for Improving Code Reviews in GitHub
 
 To recap, here are five tools for improving your code review experience in GitHub:
 
 1. Travis CI or CircleCI (for continuous integration)
-
-1. Jest and Codecov (for code coverage)
-
-1. SonarQube and SonarCloud (for code smells and security issues)
-
-1. CodeSee Review Maps (for code diagrams)
-
-1. GitHub Actions (for everything else)
+2. Jest and Codecov (for code coverage)
+3. SonarQube and SonarCloud (for code smells and security issues)
+4. CodeSee Review Maps (for code diagrams)
+5. GitHub Actions (for everything else)
 
 Thanks for reading, and happy coding!
