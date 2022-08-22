@@ -330,7 +330,7 @@ export const findKeyInBox = (box) => {
       console.log(`Found Box ${box.contents[i].id} in Box ${box.id}`);
       const boxContainingKey = findKeyInBox(box.contents[i]);
 
-    if (boxContainingKey) {
+      if (boxContainingKey) {
         return boxContainingKey;
       }
     }
