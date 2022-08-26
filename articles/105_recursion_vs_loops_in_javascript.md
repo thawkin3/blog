@@ -108,7 +108,7 @@ const power = (x, y) => {
 };
 ```
 
-Note that we’ll ignore negative exponents for the purpose of this example, even though it’s perfectly valid to have a negative exponent in real life. We’ll also handle the case where the exponent is 0, since any number raised to 0 is always itself (`2^0 = 2`).
+Note that we’ll ignore negative exponents for the purpose of this example, even though it’s perfectly valid to have a negative exponent in real life. We’ll also handle the case where the exponent is 0, since any number raised to 0 is always 1 (`2^0 = 1`).
 
 Just like we did for our factorial example, we’ve started with an initial `result` of 1. We then multiply `result` by `x` in a loop as we decrement `y` until we reach 0.
 
