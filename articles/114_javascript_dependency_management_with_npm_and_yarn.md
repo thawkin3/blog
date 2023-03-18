@@ -20,8 +20,8 @@ After running this command, you’ll be shown a list of dependencies that have n
 
 Here’s what that process looks like:
 
-![yarn upgrade-interactive — latest](https://cdn-images-1.medium.com/max/2000/1*93A22eSatK6LdYz0LUxDmg.gif)
-*yarn upgrade-interactive — latest*
+![yarn upgrade-interactive --latest](https://cdn-images-1.medium.com/max/2000/1*93A22eSatK6LdYz0LUxDmg.gif)
+*yarn upgrade-interactive --latest*
 
 ---
 
