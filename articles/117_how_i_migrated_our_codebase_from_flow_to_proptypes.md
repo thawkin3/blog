@@ -33,7 +33,7 @@ Removing Flow was surprisingly easy. I found an awesome package called [flow-rem
 The step-by-step process was:
 
 1. Install the `flow-remove-types` package as a dev dependency: `npm install --save-dev --legacy-peer-deps flow-remove-types`
-2. Create this script in the `package.json` file to generate a new `src2` directory that contains the transformed source code without any of the Flow types: `"remove-flow": "flow-remove-types — pretty src/ -d src2/"`
+2. Create this script in the `package.json` file to generate a new `src2` directory that contains the transformed source code without any of the Flow types: `"remove-flow": "flow-remove-types --pretty src/ -d src2/"`
 3. Run `npm run remove-flow`
 4. See that it creates a new `src2` directory with all the files but with the Flow types removed from them
 5. Delete the `src` directory
