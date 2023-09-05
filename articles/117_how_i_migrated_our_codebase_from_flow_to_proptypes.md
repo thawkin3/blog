@@ -1,4 +1,4 @@
-# How I Migrated Our Codebase from Flow to PropTypes
+# How I Migrated Our React Codebase from Flow to PropTypes
 
 Recently I migrated a substantial codebase from using Flow types to using PropTypes. I’ve chronicled the process here for anyone looking to do the same thing.
 
